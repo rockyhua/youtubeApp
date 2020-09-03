@@ -15,6 +15,9 @@
 		E2BDEBA524FF625B00E6F837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2BDEBA324FF625B00E6F837 /* LaunchScreen.storyboard */; };
 		E2BDEBB024FF625B00E6F837 /* youtubeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDEBAF24FF625B00E6F837 /* youtubeAppTests.swift */; };
 		E2BDEBBB24FF625B00E6F837 /* youtubeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDEBBA24FF625B00E6F837 /* youtubeAppUITests.swift */; };
+		E2BDEBC92500E11500E6F837 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDEBC82500E11500E6F837 /* Constants.swift */; };
+		E2BDEBCB2500E34700E6F837 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDEBCA2500E34700E6F837 /* Video.swift */; };
+		E2BDEBCD2500E38900E6F837 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDEBCC2500E38900E6F837 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		E2BDEBB624FF625B00E6F837 /* youtubeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = youtubeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2BDEBBA24FF625B00E6F837 /* youtubeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youtubeAppUITests.swift; sourceTree = "<group>"; };
 		E2BDEBBC24FF625B00E6F837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2BDEBC82500E11500E6F837 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E2BDEBCA2500E34700E6F837 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		E2BDEBCC2500E38900E6F837 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 		E2BDEB9724FF625900E6F837 /* youtubeApp */ = {
 			isa = PBXGroup;
 			children = (
+				E2BDEBC82500E11500E6F837 /* Constants.swift */,
+				E2BDEBCA2500E34700E6F837 /* Video.swift */,
+				E2BDEBCC2500E38900E6F837 /* Model.swift */,
 				E2BDEB9824FF625900E6F837 /* AppDelegate.swift */,
 				E2BDEB9A24FF625900E6F837 /* SceneDelegate.swift */,
 				E2BDEB9C24FF625900E6F837 /* ViewController.swift */,
@@ -262,6 +271,9 @@
 				E2BDEB9D24FF625900E6F837 /* ViewController.swift in Sources */,
 				E2BDEB9924FF625900E6F837 /* AppDelegate.swift in Sources */,
 				E2BDEB9B24FF625900E6F837 /* SceneDelegate.swift in Sources */,
+				E2BDEBCD2500E38900E6F837 /* Model.swift in Sources */,
+				E2BDEBC92500E11500E6F837 /* Constants.swift in Sources */,
+				E2BDEBCB2500E34700E6F837 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NBGM5QU346;
 				INFOPLIST_FILE = youtubeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NBGM5QU346;
 				INFOPLIST_FILE = youtubeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
